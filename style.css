@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background:  #E5E5E5;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.8;
+}
+
+a {
+    text-decoration: none;
+    padding: 3rem;
+}
+
+/* CONTAINER */
+.container {
+    background-color: #ffffff; 
+    margin: 10px auto;
+    max-width: 1200px;
+    margin-bottom: .25rem;
+    padding: 0 10px;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 650px;
+    min-height: 100vh;
+   /* position: relative; */
+}
+
+.form-wrap h2 {
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px 5px;
+    flex-direction: column;
+}
+
+h2 {
+   /* position: absolute; */
+    width: 50%;
+    margin: 0 auto;
+    height: 40px;
+    left: 105px;
+    top: 100px;
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: cursive;
+    text-align: center;
+}
+
+/* WEATHER INFORMATION CONTAINER */
+.container-2 {
+    background-color: grey; /* #fbfbfb */
+    width: 335px;
+    height: 400px;
+    left: 20px;
+    top: 205px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+    border-radius: 10px;
+}
+
+.location .city {
+    font-size: 32px;
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+
+.temperature.current-temp {
+    font-size: 102px;
+    font-weight: 200;
+    margin: 10px
+}
+
+.temperature .weather {
+    margin-bottom: 15px;
+}
+
+
+/* WEATHER INFORMATION CONTAINER */
+.weather-info {
+  /* position: absolute; */
+    width: 335px;
+    height: 300px;
+    left: 20px;
+    top: 205px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    background-position: left;
+}
+
+
+
+/* SEARCH */
+.search input {
+    width: 335px;
+    height: 53px;
+    left: 20px;
+    top: 568px;
+    background: #e5e5e5;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding: 1rem;
+    margin-bottom: .75rem;
+    border: 0 solid
+}
+
+/* SEARCH-BUTTON */
+.searchbutton button {
+    display: block;
+    width: 335px;
+    height: 50px;
+    line-height: 1.8;
+    left: 20px;
+    top: 587px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 5px 5px 5px 5px;
+    background: #9359f2;
+    font-weight: 500;
+}
+
+.searchbutton button:hover {
+    background: rgb(126, 81, 81);
+}
+
+/* .footer {
+    text-align: center;
+    font-size: 1rem;
+    color: red;
+    margin-top: 40px;
+}*/
