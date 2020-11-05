@@ -1,2 +1,7 @@
 # Weather-App
-A weather app
+
+This weather app was built using HTML,CSS & Javascript. 
+
+Live Site - https://veralee225.github.io/Weather-App/
+
+#Javascript #HTML #CSS #API
